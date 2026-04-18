@@ -1,0 +1,39 @@
+# =============================================================================
+# metabolomics-pipeline config
+# MTBLS2824 - Urine Metabolomics of Genitourinary Urothelial Cancer
+# Author: Rong Wu
+# =============================================================================
+
+data_dir: "data"
+results_dir: "results"
+sample_sheet: "data/sample_sheet.csv"
+
+# Raw data
+raw_data_dir: "/path/to/raw_data"
+ms_convert:
+  software: "thermo"   # or "bruker", "waters"
+
+# XCMS parameters
+xcms:
+  polarity: "positive"  # "positive" or "negative"
+  ppm: 15              # ppm tolerance for grouping
+  peakwidth: "5,20"    # min,max peak width in seconds
+  snthresh: 6          # signal-to-noise threshold
+  minfrac: 0.5         # minimum fraction of samples with peak
+
+# Filtering & normalization
+filter:
+  blank_cutoff: 0.25   # blank signal cutoff ratio
+  qc_cv_cutoff: 0.3    # max CV for QC samples
+  norm_method: "TIC"   # "TIC", "PQN", "none"
+
+# Statistics
+stats:
+  group_col: "group"
+  pvalue_thresh: 0.05
+  fc_thresh: 2.0
+  ncomp: 2
+
+# Pathway
+pathway:
+  database: "hsa"       # hsa (human), mmu (mouse), rno (rat)
