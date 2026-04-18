@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# Author: Rong Wu
 # CAMERA annotation: adducts, isotopes, fragments.
 
 library(CAMERA)

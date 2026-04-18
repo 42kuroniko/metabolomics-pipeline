@@ -1,7 +1,6 @@
 # =============================================================================
 # metabolomics-pipeline: LC-MS Non-targeted Metabolomics
 # Study: MTBLS2824 - Urine Metabolomics of Genitourinary Urothelial Cancer
-# Author: Rong Wu
 # =============================================================================
 
 import os

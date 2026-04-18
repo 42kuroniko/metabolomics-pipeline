@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# Author: Rong Wu
 # Filter blanks, QC samples and normalize feature table.
 
 library(optparse)

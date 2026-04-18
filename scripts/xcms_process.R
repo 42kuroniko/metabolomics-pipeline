@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# Author: Rong Wu
 # XCMS peak picking, alignment, and grouping for LC-MS metabolomics data.
 
 library(xcms)

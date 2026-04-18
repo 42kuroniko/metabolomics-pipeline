@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Author: Rong Wu
 # Setup conda env + msconvert for metabolomics pipeline.
 # Usage: bash scripts/setup_env.sh
 

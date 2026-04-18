@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# Author: Rong Wu
 # Statistical analysis: PCA, PLS-DA, volcano plot.
 
 library(optparse)

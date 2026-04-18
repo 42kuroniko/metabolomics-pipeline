@@ -1,5 +1,4 @@
 # metabolomics-pipeline conda environment
-# Author: Rong Wu
 
 name: metabolomics
 channels:

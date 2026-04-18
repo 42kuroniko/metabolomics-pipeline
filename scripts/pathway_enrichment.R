@@ -1,5 +1,4 @@
 #!/usr/bin/env Rscript
-# Author: Rong Wu
 # Pathway enrichment using MetaboAnalystR.
 
 library(optparse)

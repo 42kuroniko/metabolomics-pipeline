@@ -1,7 +1,6 @@
 # =============================================================================
 # metabolomics-pipeline config
 # MTBLS2824 - Urine Metabolomics of Genitourinary Urothelial Cancer
-# Author: Rong Wu
 # =============================================================================
 
 data_dir: "data"
